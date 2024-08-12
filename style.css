@@ -1,0 +1,446 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: "Gabarito", sans-serif;
+}
+
+.navbar{
+    display: flex;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-s1__logo{
+    width: 40px;
+    
+}
+
+.navbar-s1{
+
+    display: flex;
+}
+
+.navbar-s2{
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-s3{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.navbar-s3__button{
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 10px;
+}
+
+.head{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 30px;
+}
+
+.to{
+    align-items: center;
+    justify-content: center;
+}
+.topic{
+    display: flex;
+    padding-left: 250px;
+    padding-right: 250px;
+    justify-content: space-between;
+    margin-top: 40px;
+    align-items: center;
+    text-align: center;
+
+    
+}
+.topic img{
+    width: 15px;
+    margin-right: 10px;
+    align-items: center;
+
+}
+
+.search{
+    display: flex;
+    border: 1px solid black;
+    width: 60%;
+    padding: 10px;
+    border-radius: 40px;
+    align-items: center;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 40px;
+    gap: 10px;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.search input{
+    border: none;
+    
+}
+
+.search input:focus{
+    outline: none;
+}
+.search-button{
+    background-color:#34E0A1;
+    border: none;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    border-radius: 30px;
+    margin-left: 620px;
+    
+}
+
+.buildtrip-back__img{
+    background-color:#D7D6FA;
+    height: 400px;
+    width: 1025px;
+    border-radius: 10px;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+.buildtrip-back__img img{
+    width: 1000px;
+    margin-bottom: 100px;
+    margin-left: 30px;
+}
+.buildtrip{
+    display: flex;
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+}
+.buildtrip-cont{
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    width: 20%;
+    
+}
+.buildtrip-cont span{
+    background-color: white;
+    color:black;
+    padding: 3px;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+
+.loc-back{
+    background-color: rgb(2, 2, 49);
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    width: fit-content;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+.build-title{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* section image */
+
+.sec-img{
+
+    margin-left: 260px;
+    margin-top: 30px;
+    font-size: 20px;
+    position: relative;
+}
+.sec-img p{
+    margin-top:10px;
+    color: gray;
+    font-weight: lighter;
+}
+.catagories img{
+    width:240px;
+    border-radius: 10px;
+    margin-right: 15px;
+
+}
+.catagories{
+    margin-top: 20px;
+    position: relative;
+    width: 85%;
+    
+}
+.catagories-2{
+    margin-top: 80px;
+}
+.catagories-3{
+    margin-top: 100px;
+}
+.top-txt{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 15px;
+    left: 5px;
+}
+
+.sec2-img{
+
+    margin-left: 260px;
+    margin-top: 50px;
+    font-size: 20px;
+    position: relative;
+}
+
+.sec2-img p{
+    margin-top:10px;
+    color: gray;
+    font-weight: lighter;
+}
+.sec2-img .catagories{
+    position: relative;
+}
+.desc{
+    position: absolute;
+    display: flex;
+    width: 80%;
+    gap: 25px;
+}
+.desc span{
+    font-size: 60px;
+    color: #34E0A1;
+}
+
+.sec3-img{
+
+    margin-left: 260px;
+    margin-top: 80px;
+    font-size: 20px;
+    position: relative;
+}
+.trav-card{
+    background-color: #eed6faae;
+    width: 68%;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 260px;
+    position: relative;
+}
+
+.trav-card img{
+    padding-left: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+.trav-card__desc{
+    padding-left: 330px;
+    position: absolute;
+    bottom: 80px;
+
+}
+.trav-card p{
+    color: gray;
+    font-size: small;
+    margin-top: 30px;
+}
+.trav-card h5{
+    font-size: large;
+}
+.explore{
+    background-color: antiquewhite;
+    padding: 30px;
+    margin-top: 70px;
+    height: 340px;    
+}
+.explore-container{
+    display: flex;
+    justify-content: center;
+    padding-left: 13px;
+    gap: 30px;
+
+}
+.card1{
+    width: 320px;
+}
+
+.card1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+.explore-title{
+    display: flex;
+    padding-left: 227px;
+    margin-bottom: 10px;
+}
+.card1 p{
+    text-align: center;
+}
+.dream{
+    margin-top: 40px;
+    position: relative;
+}
+.dream-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.dream-card{
+    width: 240px;
+}
+.dream-card img{
+    width: 100%;
+    border-radius: 10px;
+}
+.dream-title{
+    padding-left: 250px;
+    margin-bottom: 20px;
+}
+
+.place{
+    position: absolute;
+    bottom: 20px;
+    padding-left: 10px;
+    color: white;
+    font-size: 30px;
+}
+.banner-back{
+    background-color: #F2ECF9;
+    width: 1020px;
+    position: absolute;
+    left: 250px;
+    margin-top: 80px;
+}
+.banner{
+    position: relative;
+    display: flex;
+}
+
+.banner-back img{
+    width: 400px;
+    padding: 40px;
+    height: 400px;
+}
+
+.banner-desc{
+    position: absolute;
+    left:800px;
+    top: 250px;
+    text-align: center;
+    width: 400px;
+}
+.banner-desc button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.choice{
+    position: relative;
+}
+.choice{
+    margin-top: 600px;
+    padding-left: 300px;
+    background-color: #FFF7E1;
+    padding-top: 20px;
+    height: 500px;
+    position: relative;
+}
+.choice-desc{
+    width: 490px;
+    position: absolute;
+    top: 180px;
+    font-size: 20px;
+}
+.choice-desc button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.circle1{
+    height: 200px;
+    width: 200px;
+    background-color: #F2B203;
+    border-radius: 100px;
+    position: absolute;
+    left: 800px;
+    top: 0;
+}
+
+.circle2{
+    height: 200px;
+    width: 200px;
+    background-color: #34E0A1;
+    border-radius: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 70%;
+}
+.circle-img img{
+    width: 300px;
+    position: absolute;
+    left: 880px;
+    border-radius: 10px;
+    top: 100px;  
+}
+.footer-card{
+    display: flex;
+    gap: 50px;
+    background-color: #FAF1ED;
+    padding: 30px;
+    margin-top: 60px;
+    padding-left: 220px;
+    text-indent: 20px;
+    height: 300px;
+}
+.footer{
+    position: relative;
+}
+.foot-desc img{
+    width: 40px;
+    position: absolute;
+    top: 210px;
+    left: 230px;
+}
+.desc1{
+    position: absolute;
+    top: 210px;
+    left: 280px;
+    width: 800px;
+    margin-top: 10px;
+}
+.underline{
+    text-decoration: underline;
+}
+.select{
+    position: absolute;
+    display: flex;
+    top: 200px;
+    left: 1200px;
+}
+.select select{
+    padding: 10px;
+    margin:10px;
+    border-radius: 10px;
+    padding-right: 30px;
+    
+}
